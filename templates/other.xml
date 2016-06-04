@@ -1,0 +1,9 @@
+<templateSet group="other">
+  <template name="ifne" value="if ($VAR$ == null) {&#10;$END$&#10;} else {&#10;&#10;}" description="inserts &quot;if null else &quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
